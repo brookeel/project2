@@ -1,0 +1,621 @@
+
+.outerbox{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    height:100vh;
+}
+
+.outerbox a{
+    vertical-align:middle;
+    width:50%;
+}
+
+.outerbox img{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+
+.overlay-heading {
+    position:absolute;
+    top:15%;
+    left:10%;
+    right:10%;
+    text-align:center;
+    font-size:small;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index:2;
+    background-color: rgba(255,255,255,.8);
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:10px;
+}
+
+.mucho-texto {
+    position:absolute;
+    top:30%;
+    left:10%;
+    right:10%;
+    text-align:left;
+    font-size:smaller;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index:2;
+    background-color: rgba(255,255,255,.8);
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:10px;
+}
+
+
+.arrow-icon {
+    position:absolute;
+    transform:rotate(90deg);
+    bottom:5%;
+    left:43.5%;
+    justify-content:center;
+}
+
+.arrow-icon-back {
+    position:absolute;
+    transform:rotate(-90deg);
+    top:4%;
+    left:45%;
+    justify-content:center;
+}
+
+.arrow-icon img {
+    height:50px;
+    width:50px;
+}
+
+.arrow-icon-back img {
+    height:50px;
+    width:50px;
+}
+
+.big-image {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
+
+.big-image img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.video-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+    top:35%;
+    left:15%;
+    width:320px;
+    height:180px;
+    border-radius:5px;
+    margin: 0 auto;
+    z-index:2;
+}
+
+.video-box iframe{
+    width:100%;
+    height:100%;
+}
+
+.home-button {
+    display:flex;
+    position:absolute;
+    top:5%;
+    right:10%;
+    z-index:2;
+}
+
+.home-button img {
+    width:40px;
+    height:40px;
+}
+
+.map-button {
+    display:flex;
+    position:absolute;
+    top:5.5%;
+    right:25%;
+    z-index:2;
+    width:40px;
+    height:40px;
+    background-color: rgba(255,255,255,.8);
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:small;
+    align-items: center;
+    justify-content:center;
+    border-radius:5px;
+}
+
+.map-button a{
+    text-decoration:none;
+    color:black;
+    font-weight:bolder;
+}
+
+.map-page {
+    background-color:rgb(79, 79, 79);
+}
+
+.map-box {
+    background-color:rgb(79, 79, 79);
+    z-index:2;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    top:25%;
+    left:2%;
+}
+
+.map-box img{
+    width:300%;
+    height:300%;
+}
+
+.tristan-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:87%;
+    left:115%;
+
+}
+
+.tristan-marker a{
+    text-decoration:none;
+}
+
+.tristan-marker p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    width:120px;
+    color:white;
+}
+
+.tristan-marker img{
+    width:40px;
+    height:40px;
+}
+
+.pitcairn-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:80%;
+    left:20%;
+
+}
+
+.pitcairn-marker a{
+    text-decoration:none;
+}
+
+.pitcairn-marker p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    width:120px;
+    color:white;
+}
+
+.pitcairn-marker img{
+    width:40px;
+    height:40px;
+}
+
+.amundsen-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:113%;
+    left:89%;
+
+}
+
+.amundsen-marker a{
+    text-decoration:none;
+}
+
+.amundsen-marker p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    width:120px;
+    color:white;
+}
+
+.amundsen-marker img{
+    width:40px;
+    height:40px;
+}
+
+.longyearbyen-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:17%;
+    left:140%;
+
+}
+
+.longyearbyen-marker a{
+    text-decoration:none;
+}
+
+.longyearbyen-marker p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    width:120px;
+    color:white;
+}
+
+.longyearbyen-marker img{
+    width:40px;
+    height:40px;
+}
+
+.oymyakon-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:25%;
+    left:245%;
+
+}
+
+.oymyakon-marker a{
+    text-decoration:none;
+}
+
+.oymyakon-marker p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    width:120px;
+    color:white;
+}
+
+.oymyakon-marker img{
+    width:40px;
+    height:40px;
+}
+
+.larinconada-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:73.5%;
+    left:71%;
+
+}
+
+.larinconada-marker a{
+    text-decoration:none;
+}
+
+.larinconada-marker p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    width:120px;
+    color:white;
+}
+
+.larinconada-marker img{
+    width:40px;
+    height:40px;
+}
+
+.iquitos-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:64%;
+    left:71%;
+
+}
+
+.iquitos-marker a{
+    text-decoration:none;
+}
+
+.iquitos-marker p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    width:120px;
+    color:white;
+}
+
+.iquitos-marker img{
+    width:40px;
+    height:40px;
+}
+
+.siwa-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:47%;
+    left:148%;
+
+}
+
+.siwa-marker a{
+    text-decoration:none;
+}
+
+.siwa-marker p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:smaller;
+    width:120px;
+    color:white;
+}
+
+.siwa-marker img{
+    width:40px;
+    height:40px;
+}
+
+@media (min-width: 600px){
+
+.outerbox a{
+    vertical-align:middle;
+    width:25%;
+
+} 
+.outerbox img{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+
+.overlay-heading {
+    position:absolute;
+    top:10%;
+    left:20%;
+    right:20%;
+    text-align:center;
+    font-size:medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index:2;
+    background-color: rgba(255,255,255,.8);
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:10px;
+}
+
+.mucho-texto {
+    position:absolute;
+    top:30%;
+    left:10%;
+    right:10%;
+    text-align:left;
+    font-size:medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index:2;
+    background-color: rgba(255,255,255,.8);
+    padding-left:30px;
+    padding-right:30px;
+    border-radius:10px;
+}
+
+.arrow-icon {
+    position:absolute;
+    transform:rotate(0deg);
+    left:92%;
+    top:50%;
+    justify-content:center;
+}
+
+.arrow-icon img{
+    height:60px;
+    width:60px;
+}
+
+.arrow-icon-back {
+    position:absolute;
+    transform:rotate(-180deg);
+    left:3%;
+    top:49%;
+    justify-content:center;
+}
+
+.arrow-icon-back img{
+    height:60px;
+    width:60px;
+}
+
+.video-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    top:30%;
+    left:28%;
+    width:640px;
+    height:360px;
+    border-radius:5px;
+    margin: 0 auto;
+    z-index:2;
+}
+
+.video-box iframe{
+    width:100%;
+    height:100%;
+}
+
+.map-box {
+    background-color:rgb(79, 79, 79);
+    z-index:2;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    top:28%;
+    left:2%;
+    right:2%;
+}
+
+.map-box img{
+    width:100%;
+    height:100%;
+}
+
+.tristan-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:92%;
+    left:40%;
+
+}
+
+.pitcairn-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:83%;
+    left:9%;
+
+}
+
+.amundsen-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:120%;
+    left:32%;
+
+}
+
+.longyearbyen-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:20%;
+    left:47%;
+
+}
+
+.oymyakon-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:29%;
+    left:81%;
+
+}
+
+.larinconada-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:78.5%;
+    left:25%;
+
+}
+
+.iquitos-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:69%;
+    left:25.5%;
+
+}
+
+.siwa-marker{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    z-index:3;
+    position:absolute;
+    top:50.5%;
+    left:49.5%;
+
+}
+
+.map-button {
+    display:flex;
+    position:absolute;
+    top:12%;
+    right:10%;
+    z-index:2;
+    width:40px;
+    height:40px;
+    background-color:rgba(255,255,255,.8);
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:small;
+    align-items: center;
+    justify-content:center;
+    border-radius:5px;
+}
+
+.map-button a{
+    text-decoration:none;
+    color:black;
+    font-weight:bolder;
+}
+
+}
